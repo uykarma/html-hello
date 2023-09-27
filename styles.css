@@ -1,0 +1,87 @@
+head {
+    background-color: whitesmoke;
+    width: 6000px;
+}
+
+body {
+    background-color: black;
+    text-align: -webkit-center;
+    font-family: 'Roboto';
+}
+
+.post {
+    width: 60vw;
+    margin-top: 3rem;
+}
+
+.post-header {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 15px;
+}
+
+.left-icons {
+    margin-left: 10px;
+}
+
+.header-text {
+    margin: 10px;
+    text-align: initial;
+}
+
+h3 {
+    margin: 0;
+}
+
+h3 .header-title{
+    font-weight: bold;
+}
+
+.right-icons {
+    flex-grow: 1;
+    margin: 10px;
+    text-align: end;
+    font-size: xx-large;
+}
+
+.post-img {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.post-img img {
+    width: 100%;
+    /* Ajusta el tamaño de la imagen al 100% del contenedor */
+    height: 100%;
+    /* Mantiene la relación de aspecto original de la imagen */
+}
+
+.post-body {
+    background-color: white;
+}
+
+.post-icons {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    size: medium;
+}
+
+.right-icons {
+    flex-grow: 1;
+    margin: 10px;
+    text-align: end;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+p {
+    text-align: initial;
+    padding: 14px;
+    margin: 0;
+    font-size: 18px;
+}
